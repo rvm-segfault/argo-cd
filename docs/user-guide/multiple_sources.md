@@ -70,7 +70,7 @@ spec:
     ref: values
 ```
 
-In the above example, the `prometheus` chart will use the value file from `git.example.gom/org/value-files.git`. 
+In the above example, the `prometheus` chart will use the value file from `git.example.com/org/value-files.git`. 
 `$values` resolves to the root of the `value-files` repository. The `$values` variable may only be specified at the 
 beginning of the value file path.
 
